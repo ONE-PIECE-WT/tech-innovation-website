@@ -7,11 +7,11 @@
           <div class="footer-logo-icon">
             <div class="icon-square"></div>
           </div>
-          <span class="footer-logo-text">科技创新</span>
+          <span class="footer-logo-text">茂名寅晖科技</span>
         </div>
         <p class="footer-description">
-          致力于为企业提供前沿的技术解决方案，推动数字化转型，创造智能未来。
-        </p>
+            致力于为企业提供前沿的技术解决方案，推动数字化转型，创造智能未来。
+          </p>
         <div class="footer-social">
           <a href="#" class="social-link" aria-label="微信">
             <i class="fab fa-weixin"></i>
@@ -44,17 +44,17 @@
         <h3 class="footer-title">联系方式</h3>
         <div class="footer-contact">
           <div class="contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>北京市朝阳区科技园区创新大厦</span>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-phone"></i>
-            <span>+86 400-123-4567</span>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <span>contact@techinnovation.com</span>
-          </div>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>茂名市油城二路北侧3-13号楼一楼101</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>18813359018</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>contact@techinnovation.com</span>
+            </div>
         </div>
       </div>
 
@@ -84,8 +84,8 @@
     <div class="footer-bottom">
       <div class="footer-bottom-content">
         <p class="copyright">
-          © 2024 科技创新有限公司. 保留所有权利.
-        </p>
+            © 2024 茂名寅晖科技有限公司. 保留所有权利.
+          </p>
         <div class="footer-legal">
           <a href="#" class="legal-link">隐私政策</a>
           <a href="#" class="legal-link">服务条款</a>

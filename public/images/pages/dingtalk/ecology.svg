@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+	<defs>
+		<clipPath id="clipPath8131939661">
+			<path d="M0 0L36 0L36 36L0 36L0 0Z" fill-rule="nonzero" transform="matrix(1 0 0 1 0 0)"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clipPath8131939661)">
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 4.5 4.5)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 15.1875 4.5)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 25.875 4.5)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 4.5 15.1875)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 15.1875 15.1875)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 25.875 15.1875)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 4.5 25.875)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 15.1875 25.875)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+		<rect width="5.625" height="5.625" rx="2.8125" ry="2.8125" stroke-width="2.25" transform="matrix(1 0 0 1 25.875 25.875)" stroke="rgb(37, 99, 235)" fill="transparent"/>
+	</g>
+</svg>

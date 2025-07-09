@@ -39,12 +39,12 @@
         
         <div class="business-cards-container">
           <div class="business-cards" :style="{ transform: `translateX(-${currentSlide * 33.333}%)` }">
-            <!-- 技术研发 -->
+            <!-- 道闸与监控安装 -->
             <div class="business-card" data-aos="fade-up" data-aos-delay="100">
               <div class="card-image">
                 <NuxtImg 
                   src="/技术研发.png" 
-                  alt="技术研发" 
+                  alt="道闸与监控安装" 
                   class="business-img"
                   loading="lazy"
                   format="webp"
@@ -52,22 +52,22 @@
                 />
               </div>
               <div class="card-content">
-                <h3 class="card-title">技术研发</h3>
+                <h3 class="card-title">道闸与监控安装</h3>
                 <ul class="card-features">
-                  <li><i class="fas fa-check"></i> 人工智能算法研发</li>
-                  <li><i class="fas fa-check"></i> 大数据处理平台</li>
-                  <li><i class="fas fa-check"></i> 云计算架构设计</li>
+                  <li><i class="fas fa-check"></i> 智能道闸系统安装</li>
+                  <li><i class="fas fa-check"></i> 高清监控设备部署</li>
+                  <li><i class="fas fa-check"></i> 安防系统集成维护</li>
                 </ul>
                 <a href="#" class="card-link">了解更多 <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
 
-            <!-- 产品创新 -->
+            <!-- 官网实现 -->
             <div class="business-card" data-aos="fade-up" data-aos-delay="200">
               <div class="card-image">
                 <NuxtImg 
                   src="/产品创新.png" 
-                  alt="产品创新" 
+                  alt="官网实现" 
                   class="business-img"
                   loading="lazy"
                   format="webp"
@@ -75,22 +75,22 @@
                 />
               </div>
               <div class="card-content">
-                <h3 class="card-title">产品创新</h3>
+                <h3 class="card-title">官网实现</h3>
                 <ul class="card-features">
-                  <li><i class="fas fa-check"></i> 智能办公系统</li>
-                  <li><i class="fas fa-check"></i> 数据可视化平台</li>
-                  <li><i class="fas fa-check"></i> 企业安全解决方案</li>
+                  <li><i class="fas fa-check"></i> 响应式网站设计</li>
+                  <li><i class="fas fa-check"></i> 企业品牌展示</li>
+                  <li><i class="fas fa-check"></i> SEO优化与维护</li>
                 </ul>
                 <a href="#" class="card-link">了解更多 <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
 
-            <!-- 解决方案 -->
+            <!-- 钉钉实现 -->
             <div class="business-card" data-aos="fade-up" data-aos-delay="300">
               <div class="card-image">
                 <NuxtImg 
                   src="/解决方案.png" 
-                  alt="解决方案" 
+                  alt="钉钉实现" 
                   class="business-img"
                   loading="lazy"
                   format="webp"
@@ -98,11 +98,11 @@
                 />
               </div>
               <div class="card-content">
-                <h3 class="card-title">解决方案</h3>
+                <h3 class="card-title">钉钉实现</h3>
                 <ul class="card-features">
-                  <li><i class="fas fa-check"></i> 金融科技解决方案</li>
-                  <li><i class="fas fa-check"></i> 智慧城市建设</li>
-                  <li><i class="fas fa-check"></i> 工业互联网平台</li>
+                  <li><i class="fas fa-check"></i> 钉钉应用开发</li>
+                  <li><i class="fas fa-check"></i> 企业数字化办公</li>
+                  <li><i class="fas fa-check"></i> 工作流程自动化</li>
                 </ul>
                 <a href="#" class="card-link">了解更多 <i class="fas fa-arrow-right"></i></a>
               </div>

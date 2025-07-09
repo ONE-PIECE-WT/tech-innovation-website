@@ -58,7 +58,7 @@
               <div class="service-content">
                 <h3 class="service-title">公司简介</h3>
                 <p class="service-description">了解我们的发展历程、企业文化和核心价值观</p>
-                <NuxtLink to="/business" class="service-link">查看详情 →</NuxtLink>
+                <NuxtLink to="/about" class="service-link">查看详情 →</NuxtLink>
               </div>
             </div>
             <div class="service-card service-card-purple" data-aos="fade-up" data-aos-delay="200">
@@ -92,7 +92,7 @@
               <div class="service-content">
                 <h3 class="service-title">媒体中心</h3>
                 <p class="service-description">获取最新的公司资讯、活动动态和行业洞察</p>
-                <a href="#" class="service-link">查看详情 →</a>
+                <NuxtLink to="/media" class="service-link">查看详情 →</NuxtLink>
               </div>
             </div>
           </div>
