@@ -4,7 +4,7 @@
     <section class="business-hero">
       <div class="business-hero-bg">
         <NuxtImg 
-          src="/业务范围背景.png" 
+          src="/images/pages/business/business-background.png" 
           alt="业务范围背景" 
           class="business-bg-image"
           loading="eager"
@@ -43,7 +43,7 @@
             <div class="business-card" data-aos="fade-up" data-aos-delay="100">
               <div class="card-image">
                 <NuxtImg 
-                  src="/技术研发.png" 
+                  src="/images/icons/tech-development.png" 
                   alt="道闸与监控安装" 
                   class="business-img"
                   loading="lazy"
@@ -66,7 +66,7 @@
             <div class="business-card" data-aos="fade-up" data-aos-delay="200">
               <div class="card-image">
                 <NuxtImg 
-                  src="/产品创新.png" 
+                  src="/images/icons/product-innovation.png" 
                   alt="官网实现" 
                   class="business-img"
                   loading="lazy"
@@ -89,7 +89,7 @@
             <div class="business-card" data-aos="fade-up" data-aos-delay="300">
               <div class="card-image">
                 <NuxtImg 
-                  src="/解决方案.png" 
+                  src="/images/icons/solutions.png" 
                   alt="钉钉实现" 
                   class="business-img"
                   loading="lazy"

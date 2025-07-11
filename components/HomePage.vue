@@ -9,7 +9,7 @@
       <section class="hero">
         <div class="hero-background">
           <NuxtImg 
-            src="/首页背景.png" 
+            src="/images/pages/home/hero-background.png" 
             alt="科技创新背景" 
             class="hero-bg-image"
             loading="eager"
@@ -47,7 +47,7 @@
             <div class="service-card service-card-blue" data-aos="fade-up" data-aos-delay="100">
               <div class="service-image">
                 <NuxtImg 
-                  src="/公司简介.png" 
+                  src="/images/pages/about/company-intro.png" 
                   alt="公司简介" 
                   class="service-img"
                   loading="lazy"
@@ -64,7 +64,7 @@
             <div class="service-card service-card-purple" data-aos="fade-up" data-aos-delay="200">
               <div class="service-image">
                 <NuxtImg 
-                  src="/业务范围.png" 
+                  src="/images/pages/business/business-scope.png" 
                   alt="业务范围" 
                   class="service-img"
                   loading="lazy"
@@ -81,7 +81,7 @@
             <div class="service-card service-card-teal" data-aos="fade-up" data-aos-delay="300">
               <div class="service-image">
                 <NuxtImg 
-                  src="/媒体中心.png" 
+                  src="/images/icons/media-center.png" 
                   alt="媒体中心" 
                   class="service-img"
                   loading="lazy"

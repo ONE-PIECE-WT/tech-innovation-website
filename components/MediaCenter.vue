@@ -12,7 +12,7 @@
           <article class="news-card" data-aos="fade-up" data-aos-delay="100">
             <div class="news-image">
               <NuxtImg 
-                src="/news_1.png" 
+                src="/images/media/news/news-1.png" 
                 alt="我公司获得2023年度科技创新奖" 
                 class="news-img"
                 loading="eager"
@@ -32,7 +32,7 @@
           <article class="news-card" data-aos="fade-up" data-aos-delay="200">
             <div class="news-image">
               <NuxtImg 
-                src="/news_2.png" 
+                src="/images/media/news/news-2.png" 
                 alt="新一代AI平台正式发布，引领行业变革" 
                 class="news-img"
                 loading="lazy"
@@ -52,7 +52,7 @@
           <article class="news-card" data-aos="fade-up" data-aos-delay="300">
             <div class="news-image">
               <NuxtImg 
-                src="/news_4.png" 
+                src="/images/media/news/news-4.png" 
                 alt="我公司与国际科技巨头达成战略合作" 
                 class="news-img"
                 loading="lazy"
@@ -72,7 +72,7 @@
           <article class="news-card" data-aos="fade-up" data-aos-delay="100">
             <div class="news-image">
               <NuxtImg 
-                src="/news_6.png" 
+                src="/images/media/news/news-6.png" 
                 alt="2024年科技趋势展望：AI将如何改变未来" 
                 class="news-img"
                 loading="lazy"
@@ -92,7 +92,7 @@
           <article class="news-card" data-aos="fade-up" data-aos-delay="200">
             <div class="news-image">
               <NuxtImg 
-                src="/news_2.png" 
+                src="/images/media/news/news-2.png" 
                 alt="我公司举办2023年度科技峰会开发者主题演讲" 
                 class="news-img"
                 loading="lazy"
@@ -112,7 +112,7 @@
           <article class="news-card" data-aos="fade-up" data-aos-delay="300">
             <div class="news-image">
               <NuxtImg 
-                src="/news_6.png" 
+                src="/images/media/news/news-6.png" 
                 alt="数字化转型白皮书：企业如何应对挑战" 
                 class="news-img"
                 loading="lazy"
@@ -145,7 +145,7 @@
               <div class="video-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="video-thumbnail">
                   <NuxtImg 
-                    src="/video_1.png" 
+                    src="/images/media/videos/video-1.png" 
                     alt="2023年产品发布会完整回顾" 
                     class="video-img"
                     loading="lazy"
@@ -167,7 +167,7 @@
               <div class="video-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="video-thumbnail">
                   <NuxtImg 
-                    src="/video_2.png" 
+                    src="/images/media/videos/video-2.png" 
                     alt="AI技术如何赋能传统行业 - 专家访谈" 
                     class="video-img"
                     loading="lazy"

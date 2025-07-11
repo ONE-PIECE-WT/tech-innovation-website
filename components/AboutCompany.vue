@@ -18,7 +18,7 @@
           </div>
           <div class="history-image">
             <NuxtImg 
-              src="/公司简介.png" 
+              src="/images/pages/about/company-intro.png" 
               alt="公司历史" 
               class="history-img"
               loading="eager"
@@ -93,7 +93,7 @@
         <div class="culture-content">
           <div class="culture-image">
             <NuxtImg 
-              src="/公司简介.png" 
+              src="/images/pages/about/company-intro.png" 
               alt="企业文化" 
               class="culture-img"
               loading="lazy"
@@ -140,7 +140,7 @@
           <div class="team-member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-image">
               <NuxtImg 
-                src="/公司简介.png" 
+                src="/images/avatars/avatar1.png" 
                 alt="张明" 
                 class="member-img"
                 loading="lazy"
@@ -162,7 +162,7 @@
           <div class="team-member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-image">
               <NuxtImg 
-                src="/公司简介.png" 
+                src="/images/avatars/avatar1.png" 
                 alt="李华" 
                 class="member-img"
                 loading="lazy"
@@ -184,7 +184,7 @@
           <div class="team-member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-image">
               <NuxtImg 
-                src="/公司简介.png" 
+                src="/images/avatars/avatar1.png" 
                 alt="王芳" 
                 class="member-img"
                 loading="lazy"
