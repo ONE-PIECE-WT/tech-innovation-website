@@ -5,12 +5,7 @@
 
     <!-- 主要内容区域 -->
     <main class="main">
-      <section class="page-hero">
-        <div class="container">
-          <h1 class="page-title">钉钉实现</h1>
-          <p class="page-subtitle">专业的钉钉应用开发与数字化办公解决方案</p>
-        </div>
-      </section>
+      
 
       <!-- 钉钉企业应用定制与实施 -->
       <section class="hero-section">
@@ -18,10 +13,10 @@
           <div class="hero-content">
             <div class="hero-text">
               <h1 class="hero-title">钉钉企业应用定制与实施</h1>
-              <p class="hero-subtitle">为企业提供专业一体化企业数字化办公平台</p>
+              <p class="hero-subtitle">从需求到落地的一站式企业协同解决方案</p>
               <div class="hero-buttons">
-                <button class="btn-primary">立即咨询</button>
-                <button class="btn-secondary">了解更多详情</button>
+                <button class="btn-primary">免费方案咨询</button>
+                <button class="btn-secondary">查看服务详情</button>
               </div>
             </div>
             <div class="hero-image">
@@ -133,32 +128,44 @@
           <h2 class="section-title">钉钉核心功能展示</h2>
           <div class="functions-grid">
             <div class="function-item">
-              <div class="function-icon">💬</div>
+              <div class="function-icon">
+                <img src="/images/pages/dingtalk/collaborate.svg" alt="即时通讯" />
+              </div>
               <h3>即时通讯</h3>
               <p>企业内部高效沟通，支持群聊、视频会议等多种形式</p>
             </div>
             <div class="function-item">
-              <div class="function-icon">📊</div>
+              <div class="function-icon">
+                <img src="/images/pages/dingtalk/data_management.svg" alt="智能报表" />
+              </div>
               <h3>智能报表</h3>
               <p>数据可视化分析，帮助企业做出更明智的决策</p>
             </div>
             <div class="function-item">
-              <div class="function-icon">🔄</div>
+              <div class="function-icon">
+                <img src="/images/pages/dingtalk/approval_process.svg" alt="流程审批" />
+              </div>
               <h3>流程审批</h3>
               <p>自定义审批流程，提升企业内部管理效率</p>
             </div>
             <div class="function-item">
-              <div class="function-icon">📅</div>
+              <div class="function-icon">
+                <img src="/images/pages/dingtalk/smart_office.svg" alt="日程管理" />
+              </div>
               <h3>日程管理</h3>
               <p>智能日程安排，合理规划工作时间和任务</p>
             </div>
             <div class="function-item">
-              <div class="function-icon">👥</div>
+              <div class="function-icon">
+                <img src="/images/pages/dingtalk/customer_management.svg" alt="组织管理" />
+              </div>
               <h3>组织管理</h3>
               <p>灵活的组织架构管理，适应企业发展需要</p>
             </div>
             <div class="function-item">
-              <div class="function-icon">🛠️</div>
+              <div class="function-icon">
+                <img src="/images/pages/dingtalk/project_collaboration.svg" alt="应用集成" />
+              </div>
               <h3>应用集成</h3>
               <p>丰富的第三方应用集成，打造完整办公生态</p>
             </div>
@@ -167,7 +174,7 @@
       </section>
 
       <!-- 数据统计 -->
-      <section class="statistics">
+      <!-- <section class="statistics">
         <div class="container">
           <div class="stats-grid">
             <div class="stat-item">
@@ -188,7 +195,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- 客户见证 -->
       <section class="testimonials">
@@ -241,7 +248,7 @@
           <div class="cta-content">
             <h2>让我们帮助您企业数字化转型的第一步</h2>
             <p>专业的钉钉定制开发服务，助力企业提升办公效率</p>
-            <button class="cta-button">立即咨询方案</button>
+            <button class="cta-button">预约免费演示</button>
           </div>
         </div>
       </section>
@@ -296,8 +303,8 @@ useHead({
 /* Hero Section */
 .hero-section {
   padding: 100px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #333;
 }
 
 .hero-content {
@@ -312,12 +319,13 @@ useHead({
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  color: #1e3a8a;
 }
 
 .hero-subtitle {
   font-size: 1.3rem;
   margin-bottom: 2.5rem;
-  opacity: 0.9;
+  color: #6b7280;
   line-height: 1.6;
 }
 
@@ -327,35 +335,37 @@ useHead({
 }
 
 .btn-primary {
-  background: rgba(255, 255, 255, 0.2);
+  background: #2563eb;
   color: white;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: none;
   padding: 15px 30px;
-  border-radius: 50px;
+  border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
+  font-size: 1rem;
 }
 
 .btn-primary:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #1d4ed8;
   transform: translateY(-2px);
 }
 
 .btn-secondary {
   background: transparent;
-  color: white;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  padding: 15px 30px;
-  border-radius: 50px;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  padding: 13px 28px;
+  border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-size: 1rem;
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #2563eb;
+  color: white;
   transform: translateY(-2px);
 }
 
@@ -473,13 +483,13 @@ useHead({
   padding: 40px 30px;
   background: white;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #DBEAFE;
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-color: #93C5FD;
 }
 
 .feature-icon {
@@ -524,18 +534,28 @@ useHead({
   padding: 40px 30px;
   background: white;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #DBEAFE;
   transition: all 0.3s ease;
+  text-align: left;
 }
 
 .function-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  border-color: #93C5FD;
 }
 
 .function-icon {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.function-icon img {
+  width: 32px;
+  height: 32px;
 }
 
 .function-item h3 {
@@ -593,13 +613,13 @@ useHead({
   padding: 40px 30px;
   background: white;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #E5E7EB;
   transition: all 0.3s ease;
 }
 
 .testimonial-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  border-color: #D1D5DB;
 }
 
 .testimonial-avatar {
@@ -651,7 +671,7 @@ useHead({
 /* CTA Section */
 .cta-section {
   padding: 100px 0;
-  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   color: white;
   text-align: center;
 }
@@ -669,20 +689,19 @@ useHead({
 }
 
 .cta-button {
-  background: rgba(255, 255, 255, 0.2);
+  background: #F97316;
   color: white;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: none;
   padding: 18px 40px;
   border-radius: 50px;
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
 }
 
 .cta-button:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #EA580C;
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }

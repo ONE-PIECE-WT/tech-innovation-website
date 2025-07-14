@@ -144,14 +144,14 @@ watch(() => useRoute().path, () => {
 .brand-icon {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
 }
 
 .icon-square {
@@ -170,7 +170,7 @@ watch(() => useRoute().path, () => {
 .brand-text {
   font-size: 1.2rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -196,7 +196,7 @@ watch(() => useRoute().path, () => {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #667eea;
+  color: #2563EB;
 }
 
 .nav-link.active::after {
@@ -206,7 +206,7 @@ watch(() => useRoute().path, () => {
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   border-radius: 1px;
   animation: slideIn 0.3s ease;
 }
@@ -221,7 +221,7 @@ watch(() => useRoute().path, () => {
 }
 
 .contact-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
   color: #ffffff;
   border: none;
   padding: 12px 24px;
@@ -230,13 +230,13 @@ watch(() => useRoute().path, () => {
   font-size: 0.95rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
   white-space: nowrap;
 }
 
 .contact-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
 }
 
 /* 下拉菜单样式 */
@@ -299,13 +299,13 @@ watch(() => useRoute().path, () => {
 }
 
 .dropdown-item:hover {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(30, 64, 175, 0.08) 100%);
   transform: translateX(4px);
 }
 
 .dropdown-item.active {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.12) 0%, rgba(118, 75, 162, 0.12) 100%);
-  color: #667eea;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(30, 64, 175, 0.12) 100%);
+  color: #2563EB;
 }
 
 .dropdown-item-content {
@@ -331,7 +331,7 @@ watch(() => useRoute().path, () => {
 }
 
 .dropdown-item.active .dropdown-item-desc {
-  color: #667eea;
+  color: #2563EB;
 }
 
 .nav-toggle {
@@ -351,7 +351,7 @@ watch(() => useRoute().path, () => {
 }
 
 .nav-toggle:hover span {
-  background: #667eea;
+  background: #2563EB;
 }
 
 /* 响应式设计 */
