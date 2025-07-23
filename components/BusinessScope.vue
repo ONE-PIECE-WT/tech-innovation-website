@@ -38,7 +38,7 @@
         </div>
         
         <div class="business-cards-container">
-          <div class="business-cards" :style="{ transform: `translateX(-${currentSlide * 33.333}%)` }">
+          <div class="business-cards" :style="{ transform: `translateX(-${currentSlide * 25}%)` }">
             <!-- 道闸与监控安装 -->
             <div class="business-card" data-aos="fade-up" data-aos-delay="100">
               <div class="card-image">
@@ -107,6 +107,28 @@
                 <a href="#" class="card-link">了解更多 <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
+
+            <!-- 企业存储方案实现 -->
+            <div class="business-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="card-image">
+                <NuxtImg 
+                  src="/images/icons/storage-solution.svg" 
+                  alt="企业存储方案实现" 
+                  class="business-img"
+                  loading="lazy"
+                  quality="75"
+                />
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">企业存储方案实现</h3>
+                <ul class="card-features">
+                  <li><i class="fas fa-check"></i> 分布式存储系统</li>
+                  <li><i class="fas fa-check"></i> 数据安全保护</li>
+                  <li><i class="fas fa-check"></i> 高性能存储架构</li>
+                </ul>
+                <a href="/enterprise-storage" class="card-link">了解更多 <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -161,7 +183,7 @@ import { ref, onMounted, nextTick } from 'vue'
 
 // 轮播控制
 const currentSlide = ref(0)
-const totalSlides = 3
+const totalSlides = 4
 
 // 上一张
 const prevSlide = () => {

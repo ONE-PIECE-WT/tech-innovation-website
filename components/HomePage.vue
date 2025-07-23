@@ -27,9 +27,9 @@
               我们致力于通过前沿科技解决现实问题，为企业和社会创造价值，共同构建智能化未来。
             </p>
             <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
-              <button class="btn btn-primary" @click="scrollToSection('services')">
+              <NuxtLink to="/business" class="btn btn-primary">
                 了解更多
-              </button>
+              </NuxtLink>
               <button class="btn btn-outline" @click="scrollToSection('contact')">
                 联系我们
               </button>
@@ -81,18 +81,16 @@
             <div class="service-card service-card-teal" data-aos="fade-up" data-aos-delay="300">
               <div class="service-image">
                 <NuxtImg 
-                  src="/images/icons/media-center.png" 
-                  alt="媒体中心" 
+                  src="/images/icons/contact-us.svg" 
+                  alt="联系我们" 
                   class="service-img"
                   loading="lazy"
-                  format="webp"
-                  quality="75"
                 />
               </div>
               <div class="service-content">
-                <h3 class="service-title">媒体中心</h3>
-                <p class="service-description">获取最新的公司资讯、活动动态和行业洞察</p>
-                <NuxtLink to="/media" class="service-link">查看详情 →</NuxtLink>
+                <h3 class="service-title">联系我们</h3>
+                <p class="service-description">与我们取得联系，获取专业的技术解决方案</p>
+                <NuxtLink to="/contact" class="service-link">查看详情 →</NuxtLink>
               </div>
             </div>
           </div>
@@ -100,7 +98,7 @@
       </section>
 
       <!-- 数据统计区域 -->
-      <section class="stats" id="stats">
+      <!-- <section class="stats" id="stats">
         <div class="container">
           <div class="stats-grid">
             <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
@@ -121,7 +119,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- 公共底部 -->
@@ -376,6 +374,13 @@ onMounted(async () => {
 
 .btn-primary:hover {
   background: rgba(255, 255, 255, 0.3);
+}
+
+/* NuxtLink按钮样式 */
+a.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
 }
 
 

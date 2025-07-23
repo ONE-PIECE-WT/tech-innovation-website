@@ -35,7 +35,7 @@
           <NuxtLink to="/" class="footer-link">首页</NuxtLink>
           <NuxtLink to="/business" class="footer-link">业务范围</NuxtLink>
           <NuxtLink to="/about" class="footer-link">关于我们</NuxtLink>
-          <NuxtLink to="/media" class="footer-link">媒体中心</NuxtLink>
+          <NuxtLink to="/contact" class="footer-link">联系我们</NuxtLink>
         </div>
       </div>
 
@@ -53,31 +53,12 @@
             </div>
             <div class="contact-item">
               <i class="fas fa-envelope"></i>
-              <span>contact@techinnovation.com</span>
+              <span>2136389542@qq.com</span>
             </div>
         </div>
       </div>
 
-      <!-- 订阅功能 -->
-      <div class="footer-section">
-        <h3 class="footer-title">订阅我们</h3>
-        <p class="footer-subscribe-text">获取最新的技术资讯和产品动态</p>
-        <form class="footer-subscribe" @submit.prevent="handleSubscribe">
-          <input 
-            type="email" 
-            v-model="subscribeEmail"
-            placeholder="请输入您的邮箱"
-            class="subscribe-input"
-            required
-          />
-          <button type="submit" class="subscribe-btn">
-            <i class="fas fa-paper-plane"></i>
-          </button>
-        </form>
-        <div v-if="subscribeMessage" class="subscribe-message" :class="subscribeStatus">
-          {{ subscribeMessage }}
-        </div>
-      </div>
+
     </div>
 
     <!-- 版权信息 -->
@@ -97,40 +78,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-
-// 订阅功能的响应式变量
-const subscribeEmail = ref('')
-const subscribeMessage = ref('')
-const subscribeStatus = ref('')
-
-// 处理订阅功能
-const handleSubscribe = () => {
-  if (!subscribeEmail.value) {
-    subscribeMessage.value = '请输入有效的邮箱地址'
-    subscribeStatus.value = 'error'
-    return
-  }
-  
-  // 简单的邮箱验证
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-  if (!emailRegex.test(subscribeEmail.value)) {
-    subscribeMessage.value = '请输入有效的邮箱格式'
-    subscribeStatus.value = 'error'
-    return
-  }
-  
-  // 模拟订阅成功
-  subscribeMessage.value = '订阅成功！感谢您的关注'
-  subscribeStatus.value = 'success'
-  subscribeEmail.value = ''
-  
-  // 3秒后清除消息
-  setTimeout(() => {
-    subscribeMessage.value = ''
-    subscribeStatus.value = ''
-  }, 3000)
-}
+// Footer组件逻辑
 </script>
 
 <style scoped>
@@ -146,7 +94,7 @@ const handleSubscribe = () => {
   margin: 0 auto;
   padding: 0 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 40px;
   margin-bottom: 40px;
 }
@@ -267,77 +215,7 @@ const handleSubscribe = () => {
   flex-shrink: 0;
 }
 
-.footer-subscribe-text {
-  color: #b8c5d6;
-  font-size: 14px;
-  margin-bottom: 16px;
-  line-height: 1.5;
-}
 
-.footer-subscribe {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-.subscribe-input {
-  flex: 1;
-  padding: 12px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  font-size: 14px;
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-}
-
-.subscribe-input::placeholder {
-  color: #b8c5d6;
-}
-
-.subscribe-input:focus {
-  outline: none;
-  border-color: #4facfe;
-  box-shadow: 0 0 0 2px rgba(79, 172, 254, 0.2);
-}
-
-.subscribe-btn {
-  padding: 12px 16px;
-  background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
-  border: none;
-  border-radius: 8px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.subscribe-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3);
-}
-
-.subscribe-message {
-  font-size: 12px;
-  padding: 8px 12px;
-  border-radius: 6px;
-  margin-top: 8px;
-}
-
-.subscribe-message.success {
-  background: rgba(34, 197, 94, 0.2);
-  color: #22c55e;
-  border: 1px solid rgba(34, 197, 94, 0.3);
-}
-
-.subscribe-message.error {
-  background: rgba(239, 68, 68, 0.2);
-  color: #ef4444;
-  border: 1px solid rgba(239, 68, 68, 0.3);
-}
 
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -403,13 +281,5 @@ const handleSubscribe = () => {
   }
 }
 
-@media (max-width: 480px) {
-  .footer-subscribe {
-    flex-direction: column;
-  }
-  
-  .subscribe-btn {
-    align-self: stretch;
-  }
-}
+
 </style>

@@ -19,7 +19,7 @@
              @mouseenter="isBusinessDropdownOpen = true" 
              @mouseleave="isBusinessDropdownOpen = false">
           <NuxtLink to="/business" class="nav-link dropdown-trigger" 
-                    :class="{ active: $route.path === '/business' || $route.path.includes('/barrier-monitoring') || $route.path.includes('/website-development') || $route.path.includes('/dingtalk-development') }">
+                    :class="{ active: $route.path === '/business' || $route.path.includes('/barrier-monitoring') || $route.path.includes('/website-development') || $route.path.includes('/dingtalk-development') || $route.path.includes('/enterprise-storage') }">
             业务范围
             <svg class="dropdown-arrow" :class="{ 'dropdown-arrow-open': isBusinessDropdownOpen }" 
                  width="12" height="8" viewBox="0 0 12 8" fill="none">
@@ -46,11 +46,16 @@
                 <span class="dropdown-item-desc">钉钉应用开发与企业数字化解决方案</span>
               </div>
             </NuxtLink>
+            <NuxtLink to="/enterprise-storage" class="dropdown-item" :class="{ active: $route.path === '/enterprise-storage' }">
+              <div class="dropdown-item-content">
+                <span class="dropdown-item-title">企业存储方案实现</span>
+                <span class="dropdown-item-desc">专业的企业级存储解决方案与数据管理服务</span>
+              </div>
+            </NuxtLink>
           </div>
         </div>
         
-        <NuxtLink to="/media" class="nav-link" :class="{ active: $route.path === '/media' }">媒体中心</NuxtLink>
-        <button class="contact-btn" @click="scrollToContact">联系我们</button>
+        <NuxtLink to="/contact" class="nav-link" :class="{ active: $route.path === '/contact' }">联系我们</NuxtLink>
       </div>
       
       <div class="nav-toggle" @click="toggleMenu">
@@ -75,21 +80,7 @@ const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
 
-// 滚动到联系我们区域
-const scrollToContact = () => {
-  // 如果在首页，滚动到联系区域
-  if (process.client) {
-    const contactSection = document.getElementById('contact')
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' })
-    } else {
-      // 如果不在首页，跳转到首页的联系区域
-      navigateTo('/#contact')
-    }
-  }
-  // 关闭移动端菜单
-  isMenuOpen.value = false
-}
+
 
 // 监听路由变化，关闭移动端菜单
 watch(() => useRoute().path, () => {
@@ -220,24 +211,7 @@ watch(() => useRoute().path, () => {
   }
 }
 
-.contact-btn {
-  background: linear-gradient(135deg, #2563EB 0%, #1E40AF 100%);
-  color: #ffffff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 25px;
-  font-weight: 600;
-  font-size: 0.95rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
-  white-space: nowrap;
-}
 
-.contact-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
-}
 
 /* 下拉菜单样式 */
 .dropdown {
